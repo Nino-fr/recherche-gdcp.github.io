@@ -1,0 +1,83 @@
+<html lang="fr">
+  <head>
+    <meta charset="utf8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Recherche GDCP</title>
+    <link rel="shortcut icon" href="SophieFlashBack.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+    <div style="text-align: center" id="headeur">
+      <h1>
+        <div class="wavy">
+          <span style="--i: 1">R</span><span style="--i: 2">e</span
+          ><span style="--i: 3">c</span><span style="--i: 4">h</span
+          ><span style="--i: 5">e</span><span style="--i: 6">r</span
+          ><span style="--i: 7">c</span><span style="--i: 8">h</span
+          ><span style="--i: 9">e</span> <span style="--i: 10">G</span
+          ><span style="--i: 11">D</span><span style="--i: 12">C</span
+          ><span style="--i: 13">P</span>
+        </div>
+      </h1>
+      <h2 id="soustitre">
+        Rechercher dans les tomes de Gardiens des Cités perdues
+      </h2>
+      <br /><br id="destination" />
+      <div id="searchBox">
+        <input
+          class="searchInput"
+          type="text"
+          name=""
+          placeholder="Texte à rechercher"
+          id="toSearch"
+        />
+        <button class="searchButton" href="">
+          <i class="material-icons"> Chercher </i>
+        </button>
+      </div>
+      <br /><br /><br /><br />
+      <input
+        type="button"
+        id="searchNow"
+        onclick="search(document.getElementById('toSearch').value)"
+        value="Rechercher "
+      />
+      <div id="todelete2"><br /><br /><br /></div>
+      <img id="loading" src="loading.gif" />
+      <div id="todelete"><br /><br /><br /><br /><br /><br /></div>
+      <div id="results">
+        <h2 class="result" id="title1">Tome 1</h2>
+        <div id="result1"></div>
+        <h2 class="result" id="title2">Tome 2</h2>
+        <div id="result2"></div>
+        <h2 class="result" id="title3">Tome 3</h2>
+        <div id="result3"></div>
+        <h2 class="result" id="title4">Tome 4</h2>
+        <div id="result4"></div>
+        <h2 class="result" id="title5">Tome 5</h2>
+        <div id="result5"></div>
+        <h2 class="result" id="title6">Tome 6</h2>
+        <div id="result6"></div>
+        <h2 class="result" id="title7">Tome 7</h2>
+        <div id="result7"></div>
+        <h2 class="result" id="title8">Tome 8</h2>
+        <div id="result8"></div>
+        <h2 class="result" id="title9">Tome 8.5</h2>
+        <div id="result9"></div>
+        <h2 class="result" id="title14">Tome 9</h2>
+        <div id="result14"></div>
+        <h2 class="result" id="title10">Les Incertitudes de Fitz</h2>
+        <div id="result10"></div>
+        <h2 class="result" id="title11">Les Révélations de Keefe</h2>
+        <div id="result11"></div>
+        <h2 class="result" id="title12">Une Conversation Décisive</h2>
+        <div id="result12"></div>
+        <h2 class="result" id="title13">Tam, Prisonnier des Invisibles</h2>
+        <div id="result13"></div>
+
+        <script src="main.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
